@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    background-color: bisque;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    grid-area: header;
+}
+
+/* boostrap img class img-fluid y es responsive*/
+.fondo {
+    background-image: url("../img/perros-banner.avif");
+    width: 60%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 270px;
+    grid-area: fondo;
+}
+
+.tituloPagina p {
+    
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+.navHover {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.navHover:hover {
+    background-color: brown;
+    font-size: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-weight: 900;
+}
+
+.logoWpp {
+    position: fixed;
+    width: 70px;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+    grid-area: footer;
+}
+
+/* INICIO */
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+.carousel-item {
+    font-size: 30px;
+    text-align: center;
+    margin: 100px 100px;
+    width: auto;
+}
+
+.frase1 {
+    color: blue;
+}
+
+.frase2 {
+    color: green;
+}
+
+.frase3 {
+    color: red;
+}
+
+/*h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px;
+    grid-area: frases;
+}*/
+
+.videoInicio {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    grid-area: video1;
+}
+
+.grafico {
+    margin: 20px;
+    width: 600px;
+    grid-area: grafico;
+}
+
+.estadistica {
+    font-size: 20px;
+    width: 300px;
+}
+
+.flexPadre {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: grafico;
+}
+
+
+
+
+/* SOBRE NOSOTROS */
+
+.contenedorNosotros {
+    display: grid;
+    grid-template-columns: 650px 600px;
+}
+
+.contenedorEllos {
+    display: grid;
+    grid-template-columns: 920px 20px;
+    gap: 40px;
+}
+
+/* ADOPTA UN ANGEL */
+
+.categoriaAdoptar {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+.perrito {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.gatito {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+
+/*CONTACTO*/
+
+h3 {
+    text-transform: uppercase;
+}
+
+form {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+label {
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+input {
+    display: block;
+    width: 300px;
+    height: 30px;
+}
+
+input:focus {
+    background-color: rgb(235, 218, 218);
+}
+
+textarea {
+    display: flex;
+    width: 500px;
+}
+
+.boton {
+    width: 100px;
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: midnightblue;
+    color: white;
+    border: none;
+}
+
+.videoContacto {
+    display: block;
+    margin-top: 1px;
+    margin-left: 700px;
+}
+
+/*DONACIONES*/
+
+/* RESPONSIVE*/
+
+/*ESCRITORIO*/
+
+@media (min-width: 1024px) {
+    .gridPadre {
+        grid-template-areas: 
+        "fondo fondo fondo"
+        "header header header"
+        "frases frases frases"
+        "video1 video1 video1"
+        "grafico grafico grafico"
+        "footer footer footer";
+    }
+    
+}
+
+/* TABLET 768px*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .gridPadre {
+        display: grid;
+        grid-template-areas: 
+        "fondo fondo"
+        "header header"
+        "frases frases"
+        "video1 video1"
+        "grafico grafico" /* NO ME ESTA TOMANDO EL FORMATO DE 2 COLUMNAS, NO ENCUENTRO EL ERROR*/
+        "footer footer";
+    }
+
+}
+
+/*MOVIL 500px*/
+
+@media (min-width: 500px) and (max-width: 767px) {
+    body {
+        text-align: center;
+    }
+
+    .fondo {
+        width: 100px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .videoInicio {
+        margin: auto;
+        width: auto;
+    }
+
+    .flexPadre {
+        display: block;
+    }
+
+    .contenedorNosotros {
+        display: block;
+        align-items: center;
+    }
+
+    .contenedorEllos {
+        display: contents;
+    }
+
+    .categoriaAdoptar {
+        display: block;
+    }
+
+    form {
+        display: inline;
+    }
+
+    textarea {
+        width: 400px;
+    }
+
+    .videoContacto {
+        margin: auto;
+        width: auto;
+        padding: 30px;
+    }
+
+    .mapaDonacion {
+        width: auto;
+    }
+}
