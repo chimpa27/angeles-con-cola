@@ -215,19 +215,23 @@ textarea {
 a {
     text-decoration: none;
     color: black;
+    padding: 10px;
 }
 
 .iconFacebook {
     width: 50px;
+    color: blue;
 }
 .iconIg {
     width: 50px;
+    color: rgb(99, 22, 170);
 }
 .iconX {
     width: 50px;
 }
 .iconYt {
     width: 50px;
+    color: red;
 }
 
 
