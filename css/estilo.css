@@ -18,10 +18,29 @@ header {
     position: sticky;
     top: 0;
     background-color: black;
-    grid-area: header;
+    justify-content: space-evenly;
 }
 
-/* boostrap img class img-fluid y es responsive*/
+.imgMiniLogo {
+    width: 100px;
+}
+
+.nav-link {
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+.nav-link:hover{
+    background-color: red;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
 .fondo {
     background-image: url("../img/perros-banner.avif");
     width: 100%;
@@ -31,7 +50,6 @@ header {
     justify-content: center;
     align-items: center;
     padding: 250px;
-    grid-area: fondo;
 }
 
 .tituloPagina p {
@@ -39,29 +57,6 @@ header {
     font-family: 'Dancing Script', cursive;
     color: white;
     font-size: 30px;
-}
-
-.navHover {
-    list-style: none;
-    display: inline-block;
-    padding: 20px 20px;
-    background-color: black;
-    border: none;
-    cursor: pointer;
-}
-
-.navHover:hover {
-    background-color: brown;
-    font-size: 20px;
-    
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-    font-weight: 900;
 }
 
 .logoWpp {
@@ -87,46 +82,41 @@ main {
     padding: 20px;
 }
 
-.carousel-item {
-    font-size: 30px;
-    text-align: center;
-    margin: 100px 100px;
-    width: auto;
+.carousel-inner {
+    align-items: center;
 }
 
-.frase1 {
-    color: blue;
+.imgDarin {
+    width: 700px;
 }
 
-.frase2 {
-    color: green;
+.imgObama {
+    width: 700px;
 }
 
-.frase3 {
-    color: red;
+.imgMiley {
+    width: 700px;
 }
 
-/*h2 {
-    font-weight: normal;
-    font-style: italic;
-    font-size: 25px;
-    text-align: center;
-    text-decoration: none;
-    margin: 50px;
-    grid-area: frases;
-}*/
+h5 {
+    color: black;
+    text-transform: uppercase;
+}
 
+p {
+    color: black;
+    text-transform: uppercase;
+
+}
 .videoInicio {
     display: block;
     align-items: center;
     justify-content: center;
-    grid-area: video1;
 }
 
 .grafico {
     margin: 20px;
     width: 600px;
-    grid-area: grafico;
 }
 
 .estadistica {
@@ -161,30 +151,15 @@ main {
 
 /* ADOPTA UN ANGEL */
 
-.categoriaAdoptar {
-    display: flex;
-    margin: auto;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 100px;
+.botonInfo {
+    background-color: red;
+    color: white;
 }
 
-.perrito {
-    height: 300px;
-    width: 300px;
-    background-color: white;
-    border: solid 1px black;
-    cursor: pointer;
+.botonAdoptar{
+    background-color: green;
+    color: white;
 }
-
-.gatito {
-    height: 300px;
-    width: 300px;
-    background-color: white;
-    border: solid 1px black;
-    cursor: pointer;
-}
-
 
 /*CONTACTO*/
 
@@ -240,32 +215,14 @@ textarea {
 
 /*ESCRITORIO*/
 
-@media (min-width: 1024px) {
-    .gridPadre {
-        grid-template-areas: 
-        "fondo fondo fondo"
-        "header header header"
-        "frases frases frases"
-        "video1 video1 video1"
-        "grafico grafico grafico"
-        "footer footer footer";
-    }
+@media (max-width: 1023px) {
     
 }
 
 /* TABLET 768px*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .gridPadre {
-        display: grid;
-        grid-template-areas: 
-        "fondo fondo"
-        "header header"
-        "frases frases"
-        "video1 video1"
-        "grafico grafico" /* NO ME ESTA TOMANDO EL FORMATO DE 2 COLUMNAS, NO ENCUENTRO EL ERROR*/
-        "footer footer";
-    }
+    
 
 }
 
