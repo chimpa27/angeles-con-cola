@@ -49,7 +49,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 250px;
+    padding: 250px 80px;
 }
 
 .tituloPagina p {
@@ -81,10 +81,6 @@ main {
     padding: 20px;
 }
 
-.carousel-inner {
-    align-items: center;
-}
-
 .imgDarin {
     width: 700px;
 }
@@ -108,44 +104,33 @@ p {
 
 }
 .videoInicio {
-    display: block;
-    align-items: center;
-    justify-content: center;
-}
+    width: 100px,
+}    
 
-.grafico {
-    margin: 20px;
-    width: 600px;
-}
 
-.estadistica {
-    font-size: 20px;
-    width: 300px;
-    padding-top: 100px;
-}
-
-.flexPadre {
+.flexDatos {
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
 
-/* SOBRE NOSOTROS */
-
-.contenedorNosotros {
-    display: grid;
-    grid-template-columns: 650px 600px;
-}
-
-.contenedorEllos {
-    display: grid;
-    grid-template-columns: 920px 20px;
-    gap: 40px;
-}
-
 /* ADOPTA UN ANGEL */
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    display: grid;
+    border-radius: 1px;
+    max-width: 100%;
+    padding: 10px;
+}
 
 .botonInfo {
     background-color: red;
@@ -245,31 +230,113 @@ a {
 
 /* RESPONSIVE*/
 
-/*ESCRITORIO*/
-
-@media (max-width: 1023px) {
-    
-}
-
 /* TABLET 768px*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
     
+    .fondo {
+        display: flex;
+        height: auto;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 160%;
+    }
+
+    header {
+        width: 160%;
+    }
+    
+    /* inicio */
+
+   .grafico {
+    width: 350px;
+   }
+
+   .estadistica {
+    font-size: 10px;
+   }
+
+   /* nosotros */
+   
+   .nosotros {
+    font-size: 15px;
+   }
+
+   .ellos {
+    font-size: 12px;
+   }
+   
+   /* adoptar */
+    
+    .row {
+        grid-template-columns: 15px 15px;
+    }
+
+    /*¨contacto */
+
+    h1 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .iconFacebook {
+        margin-left: 100px;
+    }
+
+    .iconIg {
+        margin-left: 100px;
+    }
+
+    .iconX {
+        margin-left: 100px;
+    }
+
+    .iconYt {
+        margin-left: 100px;
+    }
+
+    .navFlex {
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+    }
 
 }
 
-/*MOVIL 500px*/
 
-@media (min-width: 500px) and (max-width: 767px) {
+/*MOVIL*/
+
+@media (max-width: 767px) {
     body {
         text-align: center;
+        flex-direction: column;
+        justify-content: center;
+
     }
 
     .fondo {
-        width: 100px;
+        display: flex;
+        height: auto;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 800px;
     }
 
-    h2 {
+    header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 845px;
+    } 
+
+    /*INICIO*/
+
+    h1 {
         font-size: 15px;
     }
 
@@ -278,25 +345,40 @@ a {
         width: auto;
     }
 
-    .flexPadre {
-        display: block;
+    .grafico {
+        width: 50%;
     }
 
-    .contenedorNosotros {
-        display: block;
+    .flexDatos {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
+    } 
+
+    /* nosotros */
+
+    .nosotros {
+        font-size: 100%;
     }
 
-    .contenedorEllos {
-        display: contents;
+    /* ADOPTAR */
+
+    .row {
+        grid-template-columns: 15px;
     }
 
-    .categoriaAdoptar {
-        display: block;
+    /* contacto */
+
+    h1 {
+        font-size: 50px;
     }
 
-    form {
-        display: inline;
+    .flexPadre {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
 
     textarea {
@@ -307,6 +389,23 @@ a {
         margin: auto;
         width: auto;
         padding: 30px;
+    }
+
+    .navFlex a{
+        font-size: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+.navFlex a{
+        font-size: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    /* donaciones */
+
+    h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
     }
 
     .mapaDonacion {
