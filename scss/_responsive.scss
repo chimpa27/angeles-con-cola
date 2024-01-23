@@ -1,0 +1,170 @@
+/* RESPONSIVE*/
+
+/* TABLET 768px*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .fondo {
+        display: flex;
+        height: auto;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 160%;
+    }
+
+    header {
+        width: 160%;
+    }
+
+    /* inicio */
+
+    .grafico {
+        width: 350px;
+    }
+
+    .estadistica {
+        font-size: 10px;
+    }
+
+    /* nosotros */
+
+    .nosotros {
+        font-size: 15px;
+    }
+
+    .ellos {
+        font-size: 12px;
+    }
+
+    /* adoptar */
+
+    .row {
+        grid-template-columns: 15px 15px;
+    }
+
+    /*¨contacto */
+
+    h1 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .iconFacebook,
+    .iconIg,
+    .iconX,
+    .iconYt {
+        margin-left: 100px;
+    }
+
+    .navFlex {
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+    }
+}
+
+/*MOVIL*/
+
+@media (max-width: 767px) {
+    body {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fondo {
+        display: flex;
+        height: auto;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 800px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 845px;
+    }
+
+    /*INICIO*/
+
+    h1 {
+        font-size: 15px;
+    }
+
+    .videoInicio {
+        margin: auto;
+        width: auto;
+    }
+
+    .grafico {
+        width: 50%;
+    }
+
+    .flexDatos {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* nosotros */
+
+    .nosotros {
+        font-size: 100%;
+    }
+
+    /* ADOPTAR */
+
+    .row {
+        grid-template-columns: 15px;
+    }
+
+    /* contacto */
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .flexPadre {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    textarea {
+        width: 400px;
+    }
+
+    .videoContacto {
+        margin: auto;
+        width: auto;
+        padding: 30px;
+    }
+
+    .navFlex a {
+        font-size: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* donaciones */
+
+    h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .mapaDonacion {
+        width: auto;
+    }
+}

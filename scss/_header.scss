@@ -1,0 +1,57 @@
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.imgMiniLogo {
+    width: 100px;
+}
+
+.nav-link {
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    justify-content: space-around;
+
+    &:hover {
+        background-color: red;
+    }
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.fondo {
+    background-image: url("../img/perros-banner.avif");
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 80px;
+}
+
+.tituloPagina p {
+    font-family: 'Dancing Script', cursive;
+    color: $color-fuentes;
+    font-size: 30px;
+}
+
+.logoWpp {
+    position: fixed;
+    width: 70px;
+    bottom: 15px;
+    right: 20px;
+    cursor: pointer;
+}

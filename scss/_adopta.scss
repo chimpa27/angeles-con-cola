@@ -1,0 +1,24 @@
+/* ADOPTA UN ANGEL */
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    display: grid;
+    border-radius: 1px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.botonInfo {
+    background-color: $color-boton;
+    color: $color-fuentes;
+}
+
+.botonAdoptar {
+    background-color: $color-boton-sec;
+    color: $color-fuentes;
+}

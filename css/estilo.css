@@ -1,414 +1,347 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-} 
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    background-color: bisque;
+  background-color: bisque;
 }
-
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    background-color: black;
-    justify-content: space-evenly;
-}
-
-.imgMiniLogo {
-    width: 100px;
-}
-
-.nav-link {
-    background-color: black;
-    color: white;
-    font-weight: 900;
-    font-size: 30px;
-    justify-content: space-around;
-}
-
-.nav-link:hover{
-    background-color: red;
-}
-
-.navbar-toggler {
-    color: white;
-}
-
-.fondo {
-    background-image: url("../img/perros-banner.avif");
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 250px 80px;
-}
-
-.tituloPagina p {
-    
-    font-family: 'Dancing Script', cursive;
-    color: white;
-    font-size: 30px;
-}
-
-.logoWpp {
-    position: fixed;
-    width: 70px;
-    bottom: 15px;
-    right: 20px;
-    cursor: pointer;
-}
-
-footer {
-    margin: 20px;
-    padding: 20px;
-    border-top: 1px solid black;
-    text-align: center;
-}
-
-/* INICIO */
-
-main {
-    margin: 20px;
-    padding: 20px;
-}
-
-.imgDarin {
-    width: 700px;
-}
-
-.imgObama {
-    width: 700px;
-}
-
-.imgMiley {
-    width: 700px;
-}
-
-h5 {
-    color: black;
-    text-transform: uppercase;
-}
-
-p {
-    color: black;
-    text-transform: uppercase;
-
-}
-.videoInicio {
-    width: 100px,
-}    
-
-
-.flexDatos {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
 
 /* ADOPTA UN ANGEL */
-
 h1 {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .card {
-    display: grid;
-    border-radius: 1px;
-    max-width: 100%;
-    padding: 10px;
+  display: grid;
+  border-radius: 1px;
+  max-width: 100%;
+  padding: 10px;
 }
 
 .botonInfo {
-    background-color: red;
-    color: white;
+  background-color: red;
+  color: white;
 }
 
-.botonAdoptar{
-    background-color: green;
-    color: white;
+.botonAdoptar {
+  background-color: green;
+  color: white;
 }
 
 /*CONTACTO*/
-
-h3 {
-    text-transform: uppercase;
+h2 {
+  text-transform: uppercase;
 }
 
 form {
-    margin-top: 30px;
-    margin-left: 100px;
+  margin-top: 30px;
+  margin-left: 100px;
 }
 
 label {
-    display: flex;
-    margin: 10px;
-    font-weight: bold;
-    font-size: larger;
+  display: flex;
+  margin: 10px;
+  font-weight: bold;
+  font-size: larger;
 }
 
 input {
-    display: block;
-    width: 300px;
-    height: 30px;
+  display: block;
+  width: 300px;
+  height: 30px;
 }
-
 input:focus {
-    background-color: rgb(235, 218, 218);
+  background-color: rgb(235, 218, 218);
 }
 
 textarea {
-    display: flex;
-    width: 500px;
+  display: flex;
+  width: 500px;
 }
 
 .boton {
-    width: 100px;
-    margin: 10px;
-    padding: 10px 10px;
-    background-color: midnightblue;
-    color: white;
-    border: none;
+  width: 100px;
+  margin: 10px;
+  padding: 10px 10px;
+  background-color: midnightblue;
+  color: white;
+  border: none;
 }
 
 .flexPadre {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
 
 .navFlex {
-    font-size: 50px;
-    text-decoration: none;
-    color: black;
-    margin: auto;
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+  margin: auto;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
 }
 
 .iconFacebook {
-    width: 50px;
-    color: blue;
-}
-.iconIg {
-    width: 50px;
-    color: rgb(99, 22, 170);
-}
-.iconX {
-    width: 50px;
-}
-.iconYt {
-    width: 50px;
-    color: red;
+  width: 50px;
+  color: blue;
 }
 
+.iconIg {
+  width: 50px;
+  color: rgb(99, 22, 170);
+}
+
+.iconX {
+  width: 50px;
+}
+
+.iconYt {
+  width: 50px;
+  color: red;
+}
 
 .videoContacto {
-    display: block;
-    margin-top: 1px;
-    margin-left: 700px;
+  display: block;
+  margin-top: 1px;
+  margin-left: 700px;
 }
 
-/*DONACIONES*/
+footer {
+  margin: 20px;
+  padding: 20px;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+/*header*/
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  justify-content: space-evenly;
+}
+
+.imgMiniLogo {
+  width: 100px;
+}
+
+.nav-link {
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  justify-content: space-around;
+}
+.nav-link:hover {
+  background-color: red;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+.fondo {
+  background-image: url("../img/perros-banner.avif");
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 250px 80px;
+}
+
+.tituloPagina p {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 30px;
+}
+
+.logoWpp {
+  position: fixed;
+  width: 70px;
+  bottom: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* INICIO */
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+.imgDarin,
+.imgObama,
+.imgMiley {
+  width: 700px;
+}
+
+h2,
+p {
+  color: black;
+  text-transform: uppercase;
+}
+
+.videoInicio {
+  width: 100px;
+}
+
+.flexDatos {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* RESPONSIVE*/
-
 /* TABLET 768px*/
-
 @media (min-width: 768px) and (max-width: 1024px) {
-    
-    .fondo {
-        display: flex;
-        height: auto;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        width: 160%;
-    }
-
-    header {
-        width: 160%;
-    }
-    
-    /* inicio */
-
-   .grafico {
+  .fondo {
+    display: flex;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 160%;
+  }
+  header {
+    width: 160%;
+  }
+  /* inicio */
+  .grafico {
     width: 350px;
-   }
-
-   .estadistica {
+  }
+  .estadistica {
     font-size: 10px;
-   }
-
-   /* nosotros */
-   
-   .nosotros {
+  }
+  /* nosotros */
+  .nosotros {
     font-size: 15px;
-   }
-
-   .ellos {
+  }
+  .ellos {
     font-size: 12px;
-   }
-   
-   /* adoptar */
-    
-    .row {
-        grid-template-columns: 15px 15px;
-    }
-
-    /*¨contacto */
-
-    h1 {
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .iconFacebook {
-        margin-left: 100px;
-    }
-
-    .iconIg {
-        margin-left: 100px;
-    }
-
-    .iconX {
-        margin-left: 100px;
-    }
-
-    .iconYt {
-        margin-left: 100px;
-    }
-
-    .navFlex {
-        font-size: 30px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 150px;
-    }
-
+  }
+  /* adoptar */
+  .row {
+    grid-template-columns: 15px 15px;
+  }
+  /*¨contacto */
+  h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .iconFacebook,
+  .iconIg,
+  .iconX,
+  .iconYt {
+    margin-left: 100px;
+  }
+  .navFlex {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  }
 }
-
-
 /*MOVIL*/
-
 @media (max-width: 767px) {
-    body {
-        text-align: center;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .fondo {
-        display: flex;
-        height: auto;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        width: 800px;
-    }
-
-    header {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        width: 845px;
-    } 
-
-    /*INICIO*/
-
-    h1 {
-        font-size: 15px;
-    }
-
-    .videoInicio {
-        margin: auto;
-        width: auto;
-    }
-
-    .grafico {
-        width: 50%;
-    }
-
-    .flexDatos {
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    } 
-
-    /* nosotros */
-
-    .nosotros {
-        font-size: 100%;
-    }
-
-    /* ADOPTAR */
-
-    .row {
-        grid-template-columns: 15px;
-    }
-
-    /* contacto */
-
-    h1 {
-        font-size: 50px;
-    }
-
-    .flexPadre {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    textarea {
-        width: 400px;
-    }
-
-    .videoContacto {
-        margin: auto;
-        width: auto;
-        padding: 30px;
-    }
-
-    .navFlex a{
-        font-size: 40px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-.navFlex a{
-        font-size: 40px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    /* donaciones */
-
-    h1 {
-        font-size: 40px;
-        padding-bottom: 20px;
-    }
-
-    .mapaDonacion {
-        width: auto;
-    }
+  body {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .fondo {
+    display: flex;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 800px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 845px;
+  }
+  /*INICIO*/
+  h1 {
+    font-size: 15px;
+  }
+  .videoInicio {
+    margin: auto;
+    width: auto;
+  }
+  .grafico {
+    width: 50%;
+  }
+  .flexDatos {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* nosotros */
+  .nosotros {
+    font-size: 100%;
+  }
+  /* ADOPTAR */
+  .row {
+    grid-template-columns: 15px;
+  }
+  /* contacto */
+  h1 {
+    font-size: 50px;
+  }
+  .flexPadre {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  textarea {
+    width: 400px;
+  }
+  .videoContacto {
+    margin: auto;
+    width: auto;
+    padding: 30px;
+  }
+  .navFlex a {
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* donaciones */
+  h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .mapaDonacion {
+    width: auto;
+  }
 }
+
+/*# sourceMappingURL=estilo.css.map */

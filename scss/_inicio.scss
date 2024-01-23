@@ -1,0 +1,30 @@
+/* INICIO */
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+.imgDarin,
+.imgObama,
+.imgMiley {
+    width: 700px;
+}
+
+h2,
+p {
+    color: $color-fondo;
+    text-transform: uppercase;
+}
+
+.videoInicio {
+    width: (100px, );
+}
+
+.flexDatos {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
