@@ -134,6 +134,7 @@ header {
   top: 0;
   background-color: black;
   justify-content: space-evenly;
+  z-index: 10;
 }
 
 .imgMiniLogo {
@@ -190,6 +191,12 @@ main {
 .imgObama,
 .imgMiley {
   width: 700px;
+}
+
+.carousel-item {
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
 }
 
 h2,

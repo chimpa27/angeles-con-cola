@@ -10,6 +10,11 @@ main {
 .imgMiley {
     width: 700px;
 }
+.carousel-item {
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
 
 h2,
 p {
