@@ -23,9 +23,11 @@ header {
     font-weight: 900;
     font-size: 30px;
     justify-content: space-around;
+    transition: all 1s;
 
     &:hover {
-        background-color: red;
+        background: linear-gradient(to left,#f12711,#f5af19 );
+        font-size: 35px;
     }
 }
 
@@ -34,8 +36,7 @@ header {
 }
 
 .fondo {
-    background-image: url("../img/perros-banner.avif");
-    width: 100%;
+    background-image: url("../img/perros-banner.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;

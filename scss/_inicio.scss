@@ -5,25 +5,32 @@ main {
     padding: 20px;
 }
 
+
+
 .imgDarin,
 .imgObama,
 .imgMiley {
-    width: 700px;
+    width: 1300px;
 }
+
 .carousel-item {
     align-items: center;
     justify-content: center;
-    background-size: cover;
-}
+} 
 
-h2,
-p {
-    color: $color-fondo;
-    text-transform: uppercase;
+h2 {
+    color: $color-fuentes;
+    background-color: $color-fondo;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .videoInicio {
-    width: (100px, );
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 30%;
+    width: 500px;
 }
 
 .flexDatos {
