@@ -21,13 +21,13 @@ header {
     background-color: black;
     color: white;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 25px;
     justify-content: space-around;
     transition: all 1s;
 
     &:hover {
         background: linear-gradient(to left,#f12711,#f5af19 );
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 
