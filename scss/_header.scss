@@ -42,13 +42,14 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 250px 80px;
+    padding: 180px;
 }
 
-.tituloPagina p {
+.tituloPagina {
     font-family: 'Dancing Script', cursive;
     color: $color-fuentes;
-    font-size: 30px;
+    padding-top: 50px;
+    font-size: 70px;
 }
 
 .logoWpp {
@@ -57,4 +58,5 @@ header {
     bottom: 15px;
     right: 20px;
     cursor: pointer;
+    z-index: 10;
 }

@@ -1,9 +1,5 @@
 /*CONTACTO*/
 
-h2 {
-    text-transform: uppercase;
-}
-
 form {
     margin-top: 30px;
     margin-left: 100px;
@@ -22,7 +18,7 @@ input {
     height: 30px;
 
     &:focus {
-        background-color: rgb(235, 218, 218);
+        background-color: rgb(9, 10, 85);
     }
 }
 
@@ -33,11 +29,12 @@ textarea {
 
 .boton {
     width: 100px;
-    margin: 10px;
-    padding: 10px 10px;
+    margin:10px;
+    padding:20px;
     background-color: midnightblue;
     color: $color-fuentes;
     border: none;
+    display: inline;
 }
 
 .flexPadre {
@@ -49,13 +46,30 @@ textarea {
 .navFlex {
     font-size: 50px;
     text-decoration: none;
-    color: black;
     margin: auto;
 }
 
 a {
     @include anclas;
     padding: 10px;
+}
+
+.wpp {
+    padding: 75px;
+}
+
+h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.redes {
+    color: $color-fondo;
+}
+
+.iconWpp {
+    width: 50px;
+    color: #25d366;
 }
 
 .iconFacebook {
@@ -77,8 +91,3 @@ a {
     color: $color-boton;
 }
 
-.videoContacto {
-    display: block;
-    margin-top: 1px;
-    margin-left: 700px;
-}

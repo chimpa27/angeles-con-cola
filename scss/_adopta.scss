@@ -20,6 +20,7 @@ a {
     background-size: cover;
     height: 500px;
     width: 500px;
+    color: $color-fondo;
 }
 
 
@@ -28,6 +29,7 @@ a {
     background-size: cover;
     height: 500px;
     width: 500px;
+    color: $color-fondo;
 }
 
 .categoriaPerros {
@@ -35,17 +37,20 @@ a {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .cachorros {
     background-image: url(../img/cachorro.jpg);
     background-size: cover;
     height: 500px;
     width: 500px;
+    color: $color-fondo;
 }
 .adultos {
     background-image: url(../img/perro-adulto.jpg);
     background-size: cover;
     height: 500px;
     width: 500px;
+    color: $color-fondo;
 }
 
 .viejitos {
@@ -53,6 +58,7 @@ a {
     background-size: cover;
     height: 500px;
     width: 500px;
+    color: $color-fondo;
 }
 
 h1 {
