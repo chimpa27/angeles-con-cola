@@ -5,16 +5,18 @@ main {
     padding: 20px;
 }
 
+
 .imgDarin,
 .imgObama,
 .imgMiley {
-    width: 1300px;
-}
-
-.carousel-item {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-items: center;
     justify-content: center;
-} 
+    width: 80%;
+    
+}
 
 h2 {
     color: $color-fuentes;
@@ -28,6 +30,8 @@ h2 {
     padding: 10px;
     margin-left: 30%;
     width: 500px;
+    height: 500px;
+    
 }
 
 .flexDatos {
