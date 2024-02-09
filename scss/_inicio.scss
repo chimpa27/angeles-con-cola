@@ -5,6 +5,7 @@ main {
     padding: 20px;
 }
 
+/* carrousel*/
 
 .imgDarin,
 .imgObama,
@@ -24,16 +25,17 @@ h2 {
     padding: 10px;
 }
 
+/* video */
 .videoInicio {
     align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin-left: 30%;
-    width: 500px;
-    height: 500px;
+    justify-content:center;
+    padding: 20px;
+    width: 700px;
+    height: 400px;
     
 }
 
+/* datos */
 .flexDatos {
     margin: auto;
     display: flex;

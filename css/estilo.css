@@ -9,10 +9,14 @@ body {
   background-color: bisque;
 }
 
+p {
+  font-size: 20px;
+}
+
 /* ADOPTA UN ANGEL */
 .categoria {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -191,6 +195,11 @@ h2 {
   color: red;
 }
 
+/* nosotros */
+.info {
+  color: black;
+}
+
 /* donaciones */
 .flexDon {
   display: flex;
@@ -205,7 +214,7 @@ a {
   padding: 10px;
 }
 
-h2 {
+.metodos {
   color: black;
 }
 
@@ -299,6 +308,7 @@ main {
   padding: 20px;
 }
 
+/* carrousel*/
 .imgDarin,
 .imgObama,
 .imgMiley {
@@ -316,15 +326,16 @@ h2 {
   padding: 10px;
 }
 
+/* video */
 .videoInicio {
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  margin-left: 30%;
-  width: 500px;
-  height: 500px;
+  padding: 20px;
+  width: 700px;
+  height: 400px;
 }
 
+/* datos */
 .flexDatos {
   margin: auto;
   display: flex;
