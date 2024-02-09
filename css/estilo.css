@@ -138,6 +138,7 @@ textarea {
 .flexPadre {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   padding: 10px;
 }
 
@@ -188,6 +189,41 @@ h2 {
 .iconYt {
   width: 50px;
   color: red;
+}
+
+/* donaciones */
+.flexDon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+h2 {
+  color: black;
+}
+
+.iconPp {
+  width: 100px;
+  color: #012169;
+  cursor: pointer;
+}
+
+.iconVisa {
+  width: 200px;
+  color: #1a1f71;
+  cursor: pointer;
+}
+
+.iconMaster {
+  width: 200px;
+  cursor: pointer;
 }
 
 footer {
@@ -357,18 +393,18 @@ h2 {
   }
   .fondo {
     display: flex;
-    height: auto;
+    height: 100px;
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 800px;
+    width: 767px;
   }
   header {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 845px;
+    width: 767px;
   }
   /*INICIO*/
   h1 {

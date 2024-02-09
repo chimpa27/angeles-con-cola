@@ -1,0 +1,34 @@
+/* donaciones */
+
+.flexDon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+a {
+    @include anclas;
+    padding: 10px;
+}
+
+h2 {
+    color: black;
+}
+
+.iconPp {
+    width: 100px;
+    color: #012169;
+    cursor: pointer;
+}
+
+.iconVisa {
+    width: 200px;
+    color: #1a1f71;
+    cursor: pointer;
+}
+
+.iconMaster {
+    width: 200px;
+    cursor: pointer;
+}
