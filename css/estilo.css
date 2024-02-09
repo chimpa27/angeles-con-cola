@@ -408,14 +408,14 @@ h2 {
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 767px;
+    width: 766px;
   }
   header {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 767px;
+    width: 766px;
   }
   /*INICIO*/
   h1 {
@@ -437,11 +437,27 @@ h2 {
   }
   /* nosotros */
   .nosotros {
-    font-size: 100%;
+    font-size: 100px;
   }
   /* ADOPTAR */
+  .categoria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .categoriaPerros {
+    display: flex;
+    flex-direction: column;
+  }
   .row {
     grid-template-columns: 15px;
+    width: 50%;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   /* contacto */
   h1 {
@@ -472,6 +488,10 @@ h2 {
   h1 {
     font-size: 40px;
     padding-bottom: 20px;
+  }
+  .flexDon {
+    display: flex;
+    flex-direction: column;
   }
   .mapaDonacion {
     width: auto;
