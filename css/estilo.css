@@ -392,7 +392,7 @@ h2 {
   }
   .fondo {
     display: flex;
-    height: 100px;
+    height: 50px;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -475,7 +475,7 @@ h2 {
     align-items: center;
   }
   .navFlex a {
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 7px;
     padding-bottom: 7px;
   }
