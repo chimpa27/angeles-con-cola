@@ -16,6 +16,10 @@
         width: 100%;
     }
 
+    .tituloPagina {
+        font-size: 50px;
+    }
+    
     /* inicio */
 
     .grafico {
@@ -64,7 +68,7 @@
 
     .fondo {
         display: flex;
-        height:100px;
+        height:100%;
         align-items: center;
         align-content: center;
         justify-content: center;
@@ -148,7 +152,7 @@
     }
 
     textarea {
-        width: 400px;
+        width: 275px;
     }
 
     .videoContacto {
@@ -158,12 +162,9 @@
     }
 
     .navFlex a {
-        font-size: 40px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        font-size: 40px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     /* donaciones */

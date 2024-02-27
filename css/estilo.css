@@ -358,6 +358,9 @@ h2 {
   header {
     width: 100%;
   }
+  .tituloPagina {
+    font-size: 50px;
+  }
   /* inicio */
   .grafico {
     width: 350px;
@@ -392,7 +395,7 @@ h2 {
   }
   .fondo {
     display: flex;
-    height: 100px;
+    height: 100%;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -457,7 +460,7 @@ h2 {
     margin: auto;
   }
   textarea {
-    width: 400px;
+    width: 275px;
   }
   .videoContacto {
     margin: auto;
@@ -465,12 +468,9 @@ h2 {
     padding: 30px;
   }
   .navFlex a {
-    font-size: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   /* donaciones */
   h1 {
