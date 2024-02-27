@@ -7,9 +7,8 @@
 }
 
 a {
-    text-decoration: none;
+    @include anclas;
     font-size: xx-large;
-    color: black;
     text-transform: uppercase;
     font-weight: 900;
     text-align: center;

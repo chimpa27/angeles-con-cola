@@ -22,8 +22,8 @@ p {
 
 a {
   text-decoration: none;
-  color: white;
   font-size: xx-large;
+  color: black;
   text-transform: uppercase;
   font-weight: 900;
   text-align: center;
@@ -353,10 +353,10 @@ h2 {
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 100%;
+    width: 160%;
   }
   header {
-    width: 100%;
+    width: 160%;
   }
   /* inicio */
   .grafico {
@@ -382,9 +382,21 @@ h2 {
     align-items: center;
     justify-content: center;
   }
+  .iconFacebook,
+  .iconIg,
+  .iconX,
+  .iconYt {
+    margin-left: 100px;
+  }
+  .navFlex {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  }
 }
 /*MOVIL*/
-@media (min-width: 340px) and (max-width: 767px) {
+@media (max-width: 767px) {
   body {
     text-align: center;
     flex-direction: column;
@@ -396,14 +408,14 @@ h2 {
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 100%;
+    width: 766px;
   }
   header {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 766px;
   }
   /*INICIO*/
   h1 {
@@ -425,7 +437,7 @@ h2 {
   }
   /* nosotros */
   .nosotros {
-    font-size: 20px;
+    font-size: 100px;
   }
   /* ADOPTAR */
   .categoria {
@@ -440,7 +452,7 @@ h2 {
   }
   .row {
     grid-template-columns: 15px;
-    width: 100%;
+    width: 50%;
     justify-items: center;
     display: flex;
     flex-direction: column;
