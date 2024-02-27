@@ -79,6 +79,10 @@
         width: 100%;
     }
 
+    .tituloPagina {
+        font-size: 27px;
+    }
+
     /*INICIO*/
 
     h1 {
@@ -147,6 +151,10 @@
         margin: auto;
     }
 
+    input {
+        width: 250px;
+    }
+
     textarea {
         width: 250px;
     }
@@ -163,7 +171,7 @@
     }
 
     .navFlex a {
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 7px;
         padding-bottom: 7px;
     }

@@ -405,6 +405,9 @@ h2 {
     justify-content: center;
     width: 100%;
   }
+  .tituloPagina {
+    font-size: 27px;
+  }
   /*INICIO*/
   h1 {
     font-size: 15px;
@@ -456,6 +459,9 @@ h2 {
     flex-direction: column;
     margin: auto;
   }
+  input {
+    width: 250px;
+  }
   textarea {
     width: 250px;
   }
@@ -469,7 +475,7 @@ h2 {
     align-items: center;
   }
   .navFlex a {
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 7px;
     padding-bottom: 7px;
   }
