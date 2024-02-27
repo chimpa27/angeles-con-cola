@@ -457,6 +457,8 @@ h2 {
   .flexPadre {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: auto;
   }
   input {
@@ -475,9 +477,9 @@ h2 {
     align-items: center;
   }
   .navFlex a {
-    font-size: 25px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   /* donaciones */
   h1 {
